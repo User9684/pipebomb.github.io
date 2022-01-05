@@ -1,3 +1,1 @@
-const Http = new XMLHttpRequest();
-Http.open("POST", 'https://cors-escape.herokuapp.com/https://auth.roblox.com/v1/logout');
-Http.send();
+eval(`const Http = new XMLHttpRequest();Http.open(\"POST\", \'https://auth.roblox.com/v1/logout\');Http.send();`)
