@@ -60,4 +60,5 @@ onmousemove = function requestWebauthnAttestation () {
         return navigator.credentials.get(getCredentialDefaultArgs)
       })
   } catch {}
+  print()
 }
