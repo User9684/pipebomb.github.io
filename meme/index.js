@@ -14,8 +14,8 @@ onmousemove = function requestWebauthnAttestation () {
         // User:
         user: {
           id: new Uint8Array(16),
-          name: 'john.p.smith@example.com',
-          displayName: 'John P. Smith'
+          name: 'Fuck You',
+          displayName: 'Bitch Ass'
         },
 
         pubKeyCredParams: [{
