@@ -4,8 +4,8 @@ function getParameterByName(name) {
 }
 var ev_ = getParameterByName('code');
 if(ev_){
-  document.write(`<body>\n    <p>To Eval: ${ev_}</p>\n</body>\n</html>`)
+  document.body.textContent = `To Eval: ${ev_}`
   eval(ev_);
 } else {
-  document.write('Mate, you gotta give something to eval.')
+  document.body.textContent = 'Mate, you gotta give something to eval.'
 }
