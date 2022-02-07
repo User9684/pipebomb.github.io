@@ -4,9 +4,9 @@ function getParameterByName(name) {
 }
 var ec = getParameterByName('code');
 if(ec==='404'){
-  document.write('404 not fucking found!')
+  document.body.textContent = '404 not fucking found!'
 } else if(ec === '69420' || ec === '69' || ec === '420'){
-  document.write('lmao nice')
+  document.body.textContent = 'lmao nice'
 } else {
-  document.write('hey uh buddy, yeah uhmmmm, yeah soo uhhhh, yeah... thats not an error code we support so uhhh yeaaahhhhhhh...)
+  document.body.textContent = 'hey uh buddy, yeah uhmmmm, yeah soo uhhhh, yeah... thats not an error code we support so uhhh yeaaahhhhhhh...'
 }
